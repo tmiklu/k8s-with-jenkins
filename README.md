@@ -14,7 +14,9 @@ docker run -d -v jenkins_home:/var/jenkins_home -p 8080:8080 -p 50000:50000 jenk
 ``` 
 **Configuration Options**
 ---
-1.
+1. Manage Jenkins
+    + Manage plugins
+    + Install Kubernetes CLI 
 
 2. Manage Jenkins
     + `Add Credential`

@@ -14,13 +14,14 @@ docker run -d -v jenkins_home:/var/jenkins_home -p 8080:8080 -p 50000:50000 jenk
 ``` 
 **Configuration Options**
 ---
+1.
 
-1. Manage Jenkins
+2. Manage Jenkins
     + `Add Credential`
     + `Secret File`
     + ` Use ${HOME}/.kube/config` 
 
-2. New
+3. New
     + `Add name`
     + `Chose freestyle pipeline`
     + `Build Environment`
